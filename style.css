@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-color{
+    
+}
+/* .nav-color:hover{
+    background-color: #333e48 !important;
+} */
+
+
+
+.img-darker{
+    filter: brightness(70%);
+}
+.img-darker-most{
+    filter: brightness(55%);
+}
+.col-4 > img{
+    box-shadow: 1px 1px 1px aqua;
+
+}
+.border-radius{
+    border-bottom-left-radius: 35px !important;
+}
+.btn-width{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.cardhover{
+    width: 250px;
+    
+}
+.cardanim{
+    width: 250px;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
+    
+    
+    
+}
+.cardanim img{
+    
+    width: 100%;
+    height: 250px;
+   
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-size: contain;
+    
+  
+}
+.intro{
+    position: absolute;
+
+    width: 100%;
+    
+    background-color: rgba(253, 253, 253, 0.26);
+    height: 275px;
+    bottom: 1px;
+    display: none;
+}
+.intro div{
+    margin-top: 218px;
+}
+.cardhover:hover{
+    cursor: pointer;
+    
+}
+.cardhover:hover .intro{
+    transform: scale(1.1);
+    transition: all 1s ease;
+    display: block;
+}
+.cardhover:hover .cardanim img{
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+.link-hov:hover{
+    opacity: 0.7;
+}
+.carousal-hover{
+    cursor: grab;
+}
+.btn-beigi{
+    background-color: 	#F5F5DC;
+    
+}
+.size-for-img{
+    height: 500px !important;
+}
+.size-for-img img{
+    width: 100%;
+    height: 500px !important;
+}
+.mini-carousal-bg-color{
+    background-color: #fc6b88;
+}
+.tog01{
+    width: 25px;
+    height: 15px;
+  
+}
+.ft-pr-hover:hover{
+    cursor: pointer;
+}
+.ft-pr-hover:hover div{
+    transform: scale(0.96);
+    filter: brightness(75%);
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.ft-pr-hover button:hover{
+    color: 	#888853;
+    
+}
+.d-none-insta{
+    display: none;
+}
+.insta-div-hover:hover{
+    cursor: pointer;
+    
+    
+
+}
+.insta-div-hover:hover .d-none-insta{
+    display: block;
+}
